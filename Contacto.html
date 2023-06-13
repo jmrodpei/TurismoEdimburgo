@@ -1,0 +1,62 @@
+<!DOCTYPE html>	
+	
+	<html>
+	<head>
+		<title>Contacto</title>
+		
+		<meta charset="utf-8"/>
+		</head>
+		<body  bgcolor="#5275A3">
+		
+		
+			<h2 align="center">
+				<u>Contacto</u>
+			</h2>
+		
+			<p align="center">
+				<i>Web Ciudad de Edimburgo</i>
+			</p>
+			<hr/>
+		<map name="mapa">
+			<area title="Página de inicio" shape="RECT" coords="0,0,128,125" href="Edimburgo.xhtml"/>
+			<area title="Lugares que visitar" shape="RECT" coords="129,0,253,125" href="Lugares.xhtml"/>
+			<area title="Bares a los que ir" shape="RECT" coords="254,0,382,125" href="Bares.html"/>
+			<area title="Alrededores de la ciudad" shape="RECT" coords="383,0,512,125" href="Alrededores.xhtml"/>
+			<area title="Leyendas oscuras" shape="RECT" coords="513,0,639,125" href="Leyendas.html"/>
+		</map>
+		<p align="center">
+			<img src="Imagenes/RecorteInicio2.jpg" alt="Mapa de imágenes" usemap="#mapa"/>
+		</p>
+		<hr/>
+			<br/><br/><br/>
+		<p align="center">Para ponerte en contacto con nosotros, necesitamos gran cantidad de datos para así poder gestionar bien la situación</p>
+		<br/>
+		<br/>
+		<br/>
+		<form action="recogida1.php" method="get" align="center">
+			<fieldset>
+			<legend>Formulario</legend>
+			<br/>
+		Nombre: <input type="text" name="nombre" placeholder="Escribe tu nombre completo" size="20" pattern="[a-z]*"  required/> 
+		Apellidos: <input type="text" name="apellido" placeholder="Escribe tus apellidos" size="40" required/><br/><br/>
+		Direccion: <input type="text" name="direccion" placeholder="Escribe tu direccion" required/>
+		Email:<input type="email" name="email" placeholder="Escribe tu correo electrónico" required/><br/><br/>
+		Hora local:<input type="time" name="hora"/>
+		Fecha Actual:<input type="date" name="mes"/><br/><br/>
+		URL:<input type="url" name="url" placeholder="Introduce tu direccion web"/>
+		Busqueda: <input type="search" name="busqueda" placeholder="Busqueda avanzada"/><br/><br/>
+		¿Te gusta la página web?:&nbsp;SI <input type="radio" name="radio" value="SI" checked/> &nbsp;NO<input type="radio" name="radio" value="NO"/><br/><br/>
+		Medidor de felicidad:&nbsp;0<input type="range" name="felicidad"/>&nbsp;10 <br/><br/>
+		Color favorito:<input type="color" name="color"/><br/><br/>
+		Fotos preferidas: &nbsp;&nbsp; Ciudad <input type="checkbox"/> Montaña <input type="checkbox"/> Mar <input type="checkbox"/><br/><br/>
+		<input type="submit" value="enviar"/>&nbsp;&nbsp;&nbsp;<input type="reset" value"Borrar"/>
+		<br/><br/>
+		</fieldset>
+		</form>
+		<br/>
+		<p align="center">Gracias. ¡¡Responderemos lo antes posible!!</p>
+		<p align="center">
+		<img src="Imagenes/gracias.jpg" alt="Mofat" title="Carrera ovejas de Moffat" width="500px" height="250px"/>
+		</p>
+		</body>
+		</html> 

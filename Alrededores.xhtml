@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<title>Alrededores</title>
+		
+		</head>
+		<body bgcolor="#5275A3">
+		<p align="center">
+	<h2>
+		<u>Alrededores</u>
+	</h2>
+</p>
+	<p align="center">
+		<i>Ciudad de Edimburgo</i>
+	</p>
+<hr/>
+		<map name="mapa">
+			<area title="Página de inicio" shape="RECT" coords="0,0,128,125" href="Edimburgo.xhtml"/>
+			<area title="Lugares que visitar" shape="RECT" coords="129,0,253,125" href="Lugares.xhtml"/>
+			<area title="Bares a los que ir" shape="RECT" coords="254,0,382,125" href="Bares.html"/>
+			<area title="Alrededores de la ciudad" shape="RECT" coords="383,0,512,125" href="Alrededores.xhtml"/>
+			<area title="Leyendas oscuras" shape="RECT" coords="513,0,639,125" href="Leyendas.html"/>
+		</map>
+		<p align="center">
+			<img src="Imagenes/RecorteInicio2.jpg" alt="Mapa de imágenes" usemap="#mapa"/>
+</p>
+		<hr/>
+<br/>
+<p align="center">
+	<b>Esta sección está dedicada a los fans de la web que deseen mostrar sus fotos. Gracias a sus aportaciones, podremos ver los tesoros que ocultan los alrededores de la ciudad.</b>
+</p> 
+<p align="center">
+	<b>Al final encontraras un formulario por si tienes alguna foto que quieras poner aqui sobre el tema y la compartiremos una vez revisada.</b>
+</p>
+<br/>
+		<table border="1" width="250px" height="250px" cellspacing="10">
+		<thead></thead>
+		<tbody>
+		<tr>
+		<th colspan="5">
+		<img src="Imagenes/larga1.jpg" alt="Castillo" title="Castillo Ehindonan"  width="1300px" height="275px"/>
+		</th>
+		</tr>
+		<tr>
+		<th><img src="Imagenes/1.jpg" alt="Village" title="Dean Village"  width="250px" height="250px"/></th>
+		<th><img src="Imagenes/2.jpg" alt="Castillo2" title="Castillo Lago Ness"  width="250px" height="250px"/></th>
+		<th><img src="Imagenes/3.jpg" alt="Abadia" title="Abadia Sant Mary"  width="250px" height="250px"/></th>
+		<th><img src="Imagenes/4.jpg" alt="Lago" title="Lonch Dole"  width="250px" height="250px"/></th>
+		<th><img src="Imagenes/5.jpg" alt="Torre" title="Torre William Wallace (Stirling)"  width="250px" height="250px"/></th>
+		</tr>
+		<tr>
+		<th colspan="2" rowspan="2"><img src="Imagenes/10.jpg" alt="Highland" title="Isla de Skye"  width="500px" height="250px"/></th>
+		<th><img src="Imagenes/7.jpg" alt="Catarata" title="Catarata Orcadas"  width="250px" height="125px"/></th>
+		<th rowspan="2"><img src="Imagenes/9.jpg" alt="Nessie" title="Ultima aparición monstruo del lago Ness"  width="250px" height="250px"/></th>
+		<th rowspan="2"><img src="Imagenes/6.jpg" alt="Castillo3" title="Castillo cerca Glencoe"  width="250px" height="250px"/></th>
+		</tr>
+		<tr>
+		<th><img src="Imagenes/8.jpg" alt="Castillo4" title="Castillo de Inverness"  width="250px" height="125px"/></th>
+		</tr>
+		<tr>
+		<th colspan="5"><img src="Imagenes/larga2.jpg" alt="Fairy" title="Valle de las Hadas (Isla de Skye)"  width="1300px" height="275px"/></th>
+		</tr>
+		</tbody>
+		<tfoot></tfoot>
+		</table><br/>
+		
+		<h1 align="center">Queremos seguir creciendo con tus fotos</h1><br/>
+		<form action="Recepcion.php" method="get">
+			<fieldset>
+				<legend align="center"><i>Información a cumplimentar</i></legend>
+				<p align="center">Nombre:&nbsp; <input type="text" name="nombre" size="25"/> &nbsp; Apellido 1º:&nbsp;<input type="text" name="apellido1" size="25"/> 
+				&nbsp; Apellido 2º:&nbsp;<input type="text" name="apellido2" size="25"/>&nbsp; Procedencia: &nbsp; <select name="procedencia">
+				<option value="eur">Europa</option>
+				<option value="amn">América del Norte</option>
+				<option value="ams">América del Sur</option>
+				<option value="asi">Asia</option>
+				<option value="aus">Australia</option>
+				<option value="afr">Africa</option>
+				</select>
+				</p>
+				</fieldset><br/>
+				<fieldset align="center">
+				<legend><i>Breve descripción de la Foto</i></legend>
+				<table align="center">
+				<thead></thead>
+				<tbody>
+				<tr>
+				<td>
+				<input type="checkbox" name="posee" value="posee"/>Poseo Propiedad.
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<input type="checkbox" name="cede" value="cede"/>Conforme ceder Propiedad.
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<textarea  rows="5" cols="65" name="texto" />
+				<br/>
+				</td>
+				</tr>
+				<tr>
+				<td align="right">
+				<p>Foto:&nbsp;<input type="text" name="foto" size="15"/>
+				<input type="file" name="archivo"/></p>
+				</td>
+				</tr>
+				</tbody>
+				<tfoot></tfoot>
+				</table>	
+				<button type="submit">Enviar Información</button>&nbsp; &nbsp; &nbsp; <button type="reset">Borrar todo</button>
+		</fieldset>
+</form>
+		<br/>
+	<p align="center">	
+<button type="submit" value="Enviar un email" align="center" onclick="parent.location='mailto:micorreo@correo.com'">Enviar Email</button>
+</p>
+<br/>
+		<p align="center">
+		<a title="Contacta con nosotros" href="Contacto.html"><img src="Imagenes/contacto.png" alt="Contacto" width="50px" height="50px" /></a>
+		</p>
+
+		</body>
+		</html>

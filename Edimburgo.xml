@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<title>Edimburgo</title> 
+		<link rel="icon" type="image/jpg" href="./imagenes/CardoLogo.jpg" />
+	</head>
+	  <body bgcolor="#5275A3">
+	  <center><p><h1><b>E d i m b u r g o</b></h1></p></center>
+	  <center><p><i>Ciudad</i></p></center><br/>
+	  <map name="mapa1">
+	  <area title="Pulsa para ver Lugares que visitar" shape="RECT" coords="0,0,0,0" href="Visitas.xhtml"/>
+	  <area title="Pulsa para ver Bares" shape="RECT" coords="0,0,0,0" href="Bares.xhtml"/>
+	  <area title="Pulsa para ver Alrededores" shape="RECT" coords="0,0,0,0" href="Alrededores.xhtml"/>
+	  </map>
+	  <center><img src="Imagenes/RecorteInicio2.jpg" alt="Mapa de imágenes" usemap="#mapa1"></img></center><br/>
+	  <p><b>La ciudad de edimburgo es una de las más pobladas dentro de 
+la región conocida como Escocia. Forma parte del Reino Unido junto 
+con Inglaterra e Irlanda del Norte. Reconocida por la Unesco desde 
+1995 por lo bien conservada que estan sus edificiones que datan de 
+la época medieval.</b></p>
+
+<p><b>Edimburgo ha sido reconocida como la ciudad mejor para vivir de todo el 
+pais. Este estudio ha tenido en cuenta el coste de la vivienda, la 
+contaminación, el acceso a la sanidad y a la educación, el bajo indice 
+de criminalidad, la oferta cultural, la existencia de espacios verdes y 
+la baja tasa de desempleo.</b></p>
+
+<p><b>Se dice que una imágen vale más que mil palabras. En esta web tratamos 
+la ciudad y alrededores desde el punto de vista visual.</b></p>
+	  
+	  <table>
+	  <tbody>
+	  <tr>
+	  <td></td>
+	  
+	  
+	  </tr>
+	  
+	  
+	  
+	  </tbody>
+	  
+	  </table>
+	  
+	  
+	  
+	  </body>
+	  </html>
